@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA4D7AF51842365000C91BD1 /* HZK48S in Resources */ = {isa = PBXBuildFile; fileRef = EA4D7AF41842365000C91BD1 /* HZK48S */; };
+		EA4D7AF81842366000C91BD1 /* HZK24H in Resources */ = {isa = PBXBuildFile; fileRef = EA4D7AF61842366000C91BD1 /* HZK24H */; };
+		EA4D7AF91842366000C91BD1 /* HZK24K in Resources */ = {isa = PBXBuildFile; fileRef = EA4D7AF71842366000C91BD1 /* HZK24K */; };
+		EA60C87818416ADA00E770C2 /* hzk16y in Resources */ = {isa = PBXBuildFile; fileRef = EA60C87718416ADA00E770C2 /* hzk16y */; };
 		EA8A20D6183FF43900577F98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8A20D5183FF43900577F98 /* UIKit.framework */; };
 		EA8A20D8183FF43900577F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8A20D7183FF43900577F98 /* Foundation.framework */; };
 		EA8A20DA183FF43900577F98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8A20D9183FF43900577F98 /* CoreGraphics.framework */; };
@@ -23,6 +27,8 @@
 		EA8A20FC183FF43900577F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8A20D7183FF43900577F98 /* Foundation.framework */; };
 		EA8A2104183FF43900577F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA8A2102183FF43900577F98 /* InfoPlist.strings */; };
 		EA8A2107183FF43900577F98 /* HZinIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8A2106183FF43900577F98 /* HZinIOSTests.m */; };
+		EA8A2111183FF47F00577F98 /* libiconv.2.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8A2110183FF47F00577F98 /* libiconv.2.4.0.dylib */; };
+		EA8A2113183FF4D600577F98 /* HZK16 in Resources */ = {isa = PBXBuildFile; fileRef = EA8A2112183FF4D600577F98 /* HZK16 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA4D7AF41842365000C91BD1 /* HZK48S */ = {isa = PBXFileReference; lastKnownFileType = file; path = HZK48S; sourceTree = "<group>"; };
+		EA4D7AF61842366000C91BD1 /* HZK24H */ = {isa = PBXFileReference; lastKnownFileType = file; path = HZK24H; sourceTree = "<group>"; };
+		EA4D7AF71842366000C91BD1 /* HZK24K */ = {isa = PBXFileReference; lastKnownFileType = file; path = HZK24K; sourceTree = "<group>"; };
+		EA60C87718416ADA00E770C2 /* hzk16y */ = {isa = PBXFileReference; lastKnownFileType = file; path = hzk16y; sourceTree = "<group>"; };
 		EA8A20D2183FF43900577F98 /* HZinIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZinIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8A20D5183FF43900577F98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA8A20D7183FF43900577F98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +68,8 @@
 		EA8A2103183FF43900577F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA8A2105183FF43900577F98 /* HZinIOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZinIOSTests.h; sourceTree = "<group>"; };
 		EA8A2106183FF43900577F98 /* HZinIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZinIOSTests.m; sourceTree = "<group>"; };
+		EA8A2110183FF47F00577F98 /* libiconv.2.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.4.0.dylib; path = usr/lib/libiconv.2.4.0.dylib; sourceTree = SDKROOT; };
+		EA8A2112183FF4D600577F98 /* HZK16 */ = {isa = PBXFileReference; lastKnownFileType = file; name = HZK16; path = ../../../../../bak/HZK16; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA8A2111183FF47F00577F98 /* libiconv.2.4.0.dylib in Frameworks */,
 				EA8A20D6183FF43900577F98 /* UIKit.framework in Frameworks */,
 				EA8A20D8183FF43900577F98 /* Foundation.framework in Frameworks */,
 				EA8A20DA183FF43900577F98 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +100,12 @@
 		EA8A20C9183FF43900577F98 = {
 			isa = PBXGroup;
 			children = (
+				EA4D7AF61842366000C91BD1 /* HZK24H */,
+				EA4D7AF71842366000C91BD1 /* HZK24K */,
+				EA4D7AF41842365000C91BD1 /* HZK48S */,
+				EA60C87718416ADA00E770C2 /* hzk16y */,
+				EA8A2112183FF4D600577F98 /* HZK16 */,
+				EA8A2110183FF47F00577F98 /* libiconv.2.4.0.dylib */,
 				EA8A20DB183FF43900577F98 /* HZinIOS */,
 				EA8A20FF183FF43900577F98 /* HZinIOSTests */,
 				EA8A20D4183FF43900577F98 /* Frameworks */,
@@ -236,6 +255,11 @@
 				EA8A20EA183FF43900577F98 /* Default@2x.png in Resources */,
 				EA8A20EC183FF43900577F98 /* Default-568h@2x.png in Resources */,
 				EA8A20EF183FF43900577F98 /* MainStoryboard.storyboard in Resources */,
+				EA8A2113183FF4D600577F98 /* HZK16 in Resources */,
+				EA60C87818416ADA00E770C2 /* hzk16y in Resources */,
+				EA4D7AF51842365000C91BD1 /* HZK48S in Resources */,
+				EA4D7AF81842366000C91BD1 /* HZK24H in Resources */,
+				EA4D7AF91842366000C91BD1 /* HZK24K in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +477,7 @@
 				EA8A210C183FF43900577F98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA8A210D183FF43900577F98 /* Build configuration list for PBXNativeTarget "HZinIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +486,7 @@
 				EA8A210F183FF43900577F98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

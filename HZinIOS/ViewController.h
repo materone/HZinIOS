@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iconv.h>
 
 @interface ViewController : UIViewController
+- (IBAction)goDraw:(id)sender;
 
 @end
