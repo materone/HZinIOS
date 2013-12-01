@@ -16,7 +16,7 @@
 
 const int fontRow = 16;
 const int fontCol = 16/8;
-const unsigned int fontOffset = 1;
+const unsigned int fontOffset = 1;//16*16,24*24 -1 ,font pixal > 24 -16
 NSString * fontName = @"HZK16";
 unsigned char buffer[fontRow*fontCol];
 
