@@ -141,7 +141,7 @@ unsigned char * convHz(char * path,const char *c)
     
     fphzk = fopen(path, "rb");
     if(fphzk == NULL){
-        fprintf(stderr, "error hzk16\n");
+        fprintf(stderr, "error hzk16y\n");
         return 1;
     }
     gbWord = ConvertEnc("UTF-8", "GB2312", c);
